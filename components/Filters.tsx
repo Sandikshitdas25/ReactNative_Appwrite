@@ -9,7 +9,7 @@ const Filters = () => {
     const handleCategoryPress = (category: string) => {
         if(selectedCategory === category){
             setSelectedCategory("All")
-            router.setParams({filter: "All"})
+            router.setParams({filter: ""})
             // console.log(category)
             return
         }
